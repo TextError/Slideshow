@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
+
+body > main > section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .wrapper  {
+    & ul > .slide {
+      display: none;
+    };
+    & ul > .slide.active {
+      display: block;
+    };
+    & ul > li > img {
+      max-width: 400px;
+      min-width: 300px;
+      width: 100%;
+    };
+  };
+};

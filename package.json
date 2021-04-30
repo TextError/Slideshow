@@ -1,0 +1,17 @@
+{
+  "name": "slideshow",
+  "version": "1.0.0",
+  "description": "simple html slideshow",
+  "main": "js/index.js",
+  "scripts": {
+    "tsc": "tsc --target ES2016 ts/index.ts --watch"
+  },
+  "keywords": [
+    "slideshow"
+  ],
+  "author": "Savin Raul Calin",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}
